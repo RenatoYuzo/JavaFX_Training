@@ -15,8 +15,9 @@
       <menus>
         <Menu mnemonicParsing="false" text="File">
           <items>
-            <MenuItem fx:id="menuNew" mnemonicParsing="false" text="New" />
-            <MenuItem fx:id="menuOpen" mnemonicParsing="false" onAction="#handleMenuOpenAction" text="Open…" />
+            <MenuItem fx:id="miLer" mnemonicParsing="false" onAction="#handleMiLerAction" text="Ler" />
+            <MenuItem fx:id="miEscrever" mnemonicParsing="false" onAction="#handleMiEscreverAction" text="Escrever" />
+                  <MenuItem fx:id="miCriar" mnemonicParsing="false" onAction="#handleMiCriarAction" text="Criar Arquivo Texto" />
             <Menu mnemonicParsing="false" text="Open Recent" />
             <SeparatorMenuItem mnemonicParsing="false" />
             <MenuItem mnemonicParsing="false" text="Close" />
